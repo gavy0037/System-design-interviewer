@@ -134,7 +134,7 @@ function App() {
       setSavedToHistory(false)
       console.log("[1] Requesting ephemeral token from backend...")
 
-      const res = await fetch('http://localhost:8000/api/session/start', {
+      const res = await fetch('/api/session/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ topic: selectedTopic.name })
@@ -390,7 +390,7 @@ function App() {
     setSavedToHistory(false)
 
     try {
-      const res = await fetch('http://localhost:8000/api/session/evaluate', {
+      const res = await fetch('/api/session/evaluate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
