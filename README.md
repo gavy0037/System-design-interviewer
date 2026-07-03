@@ -191,13 +191,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
-
-**Gurpreet Singh Jawandha**
-- GitHub: [@GS-Jawandha](https://github.com/GS-Jawandha)
-
----
-
 <div align="center">
 
 ⭐ *If you found this project interesting, consider giving it a star!*
